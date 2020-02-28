@@ -1,0 +1,15 @@
+[submodule "WW3DATA"]
+	path = WW3DATA
+	url = https://github.com/moghimis/WW3DATA.git
+[submodule "NEMS"]
+	path = NEMS
+	url = https://github.com/moghimis/NEMS.git
+[submodule "ATMESH"]
+	path = ATMESH
+	url = https://github.com/moghimis/ATMESH.git
+[submodule "ADCIRC"]
+	path = ADCIRC
+	url = https://moghimis@github.com/moghimis/adcirc-cg.git
+[submodule "WW3"]
+	path = WW3
+	url = https://github.com/NOAA-EMC/WW3.git
