@@ -5,7 +5,7 @@
 ## Feb 27, 2020
 
 # load modules
-source modulefiles/hera/coastal_app
+source modulefiles/hera/ESMF_NUOPC
 
 cd NEMS
 
@@ -13,10 +13,7 @@ cd NEMS
 make -f GNUmakefile distclean_ADCIRC COMPONENTS="ADCIRC"
 make -f GNUmakefile distclean_WW3DATA COMPONENTS="WW3DATA"
 make -f GNUmakefile distclean_ATMESH COMPONENTS="ATMESH"
-make -f GNUmakefile distclean_ATMESH COMPONENTS="NEMS"
 
 #make
 make -f GNUmakefile build COMPONENTS="ADCIRC WW3DATA ATMESH"
-
-
 
